@@ -1,10 +1,16 @@
 import React from "react"
 
-import '../styling/footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+
+import Social from "../components/social"
+
+import '../styling/footer.css'
 
 const Footer = () => (
-    <footer class="h6 bg-dark text-light footer-style">
-        © {new Date().getFullYear()}, Justin Hynes
+    <footer className="bg-dark text-light footer-style">
+        <Social/>
+        <FontAwesomeIcon icon={faCopyright}/> {new Date().getFullYear()}, Justin Hynes
     </footer>
 )
 
