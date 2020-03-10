@@ -1,0 +1,14 @@
+.social-styling {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social-link {
+    color: inherit;
+
+}
+
+.social-link:hover {
+    color: inherit;
+    -webkit-transform: scale(1.3);
+}

@@ -1,2 +1,10 @@
 .footer-style {
+    margin-bottom: 0px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
 }

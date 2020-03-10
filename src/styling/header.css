@@ -1,0 +1,9 @@
+.header-styling {
+    height: 60px;
+    padding-left: 80px;
+    padding-right: 200px;
+}
+
+.header-link {
+    text-decoration: none;
+}
