@@ -10,5 +10,6 @@
 
 .social-link:hover {
     color: inherit;
+    transform: scale(1.3);
     -webkit-transform: scale(1.3);
 }

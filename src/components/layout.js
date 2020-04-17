@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   return (
     <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <div className="d-flex justify-content-center">
           <main>{children}</main>
         </div>
         <Footer/>

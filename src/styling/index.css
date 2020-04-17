@@ -1,0 +1,13 @@
+.index-page-content {
+    max-width: 1140px;
+}
+
+.image-box {
+    height: 300px;
+    width: 300px;
+}
+
+.index-about-text {
+    align-content: center;
+    text-align: center;
+}
